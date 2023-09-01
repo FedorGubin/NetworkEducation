@@ -29,9 +29,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        button = findViewById(R.id.button)
-        progressBar = findViewById(R.id.progressBar)
-        button?.setOnClickListener { requestRickAndMorty() }
+//        button = findViewById(R.id.button)
+//        progressBar = findViewById(R.id.progressBar)
+//        button?.setOnClickListener { requestRickAndMorty() }
 
     }
 
